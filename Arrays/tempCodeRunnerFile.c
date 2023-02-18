@@ -1,0 +1,1 @@
+rintf("%d %d %d\n", arr[i], arr[j], arr[k]);

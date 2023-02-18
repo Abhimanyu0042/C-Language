@@ -3,5 +3,6 @@
         "limits.h": "c",
         "random": "c",
         "limits": "c"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

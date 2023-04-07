@@ -30,5 +30,4 @@ int main(){
     printf("%lu\n",sizeof(structB_t));
     printf("%lu\n",sizeof(structC_t));
     printf("%lu\n",sizeof(structD_t));
-
 }

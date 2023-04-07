@@ -1,15 +1,18 @@
 #include <stdio.h> 
-#include <string.h>
-    typedef struct employee{
-        char name[50];
-        int salary;
-    }st;
+#include<string.h>
+
+// enum color{Red = 5,Green = -1,Blue = 8};
+union Data{int i; float f; char str[20];};
 
 int main(){
+    union Data data;
+   data.i = 10;
+   data.f = 220.5;
+   strcpy( data.str, "C Programming");
 
-    st e1;  
-    strcpy(e1.name,"Abhimanyu");
-    e1.salary = 20,000,000;
-    printf("%s\n",e1.name);
-    printf("%d\n",e1.salary);
+   printf( "data.i : %d\n", data.i);
+   printf( "data.f : %f\n", data.f);
+   printf( "data.str : %s\n", data.str);
+    // printf("%d %d %d",Red, green, blue);
+
 }
